@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+img{
+    max-width: 100%;height: auto;display: block;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h2{
+    font-family: 'Fredericka the Great', cursive;
+
+}
+.back{
+    background-color: #ffdf01;
+    width: 100%;height: 100vh;
+    position: relative;
+}
+.title{
+    /* display: flex;justify-content: flex-end; */
+    text-align: right;
+}
+.title img{
+    position: absolute;
+    top: 1%;right: 10%;
+
+}
+.menu ul{
+    display: flex;justify-content: flex-end;
+    margin-top: 2%;
+}
+.menu ul li a{
+    text-decoration: none;color: black;
+    padding: 24px;
+    text-transform: uppercase;
+    font-size: 12px;font-weight: bold;
+}
+.headding{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    text-align: center;
+}
+.logos{
+    position: relative;
+    
+}
+.lg{
+    width: 600px;height:590px ;
+    position: absolute;
+    top: 17%;left: 50%;
+}
+.lg-1{ 
+    height: 100px;
+    position: absolute;
+    left: -200px;top: 65%;
+    width: 350px;
+}
+.lg-2{
+    position: absolute;
+    left: 70%;top: 50%;
+}
+.lg-3{
+    position: absolute;
+    left: 53%;top: 80%;
+}
+.h-tittle b{
+    margin-bottom: 20%;
+    border-bottom: 1px solid black;
+   
+}
+.h-tittle-1{
+    display: flex;
+}
+.h-tittle h3{
+    font-family: 'Freehand', cursive;
+    font-size: 40px;
+    margin-bottom: 2%;
+
+}
+.h-tittle h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 60px;
+
+}
+.h-tittle b{
+    font-weight: bold;text-transform: uppercase;
+}
+.h-tittle-1 p{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    margin-left: 42%;
+
+}
+.ck a{
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-decoration: none;color: black;
+    text-align: center;font-weight: bold;text-transform: uppercase;
+}
+.ck a:hover{
+    background-color: black;color: white;transition: 1s;
+}
+.headding-1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.headding-1 h2{
+    font-size: 40px;
+}
+.headding-1 p{
+    font-size: 10px;text-align: center;
+}
+#foods{
+    text-align: center !important;
+}
+.item-1 img{
+    width: 300px;height: 300px;
+}
+.item-1 h5{
+    font-size: 15px;font-weight: bold;
+}
+.item-1 p{
+    font-size: 10px;
+    text-transform: lowercase;
+}
+.item-1 a{
+    margin-top: 3%;
+    text-decoration: none;border: 1px ;
+    padding: 7px 20px;background-color: #ffe001;color: black;font-size: 10px;font-weight: bold;
+}
+.headding-2{
+    margin-top: 20%;text-align: center;
+}
+.headding-2{
+    font-size: 9px;
+}
+.food-img img{
+   height: 300px;width: 500px; 
+}
+.reservition{margin-top: 5%;
+    text-align: center;
+}
+.reservition h5{
+    text-transform: uppercase;font-size: 10px;
+}
+.reservition-1 input{
+    width: 40%;
+    margin: 20px 0 ;
+}
+.reservition-1 a{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: #ffdf01;color: black;
+    text-transform: uppercase;font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.footer{
+    margin-top: 8%;
+    background: url("food-img-1.jpg"); 
+    background-repeat: no-repeat;background-position: center;background-size: cover;
+    height: 60vh;
+}
+.footer {
+color: white ;
+text-align: left;
+}
+.footer img{
+  padding: 15px 20px;
+}
+.f{
+  padding: 20px 20px;
+}
+.f p{
+    font-size: 12px;
+}
+.ff b{
+    font-size: 10px;
+    text-align: right;
+}
+.lg{
+    display: none;
+}
+
+
+
+
+
+/* Responsive */
+@media(max-width:991px){
+  .logo {
+    width: 150px;
+  }
+  .title b{
+    margin: 5%;
+  }
+  .headding h3,h2{
+    font-size: 30px;
+  }
+  .headding b,p{
+    font-size: 12px;
+  }
+  .headding a{
+    font-size: 13px;
+  }
+  .lg-1{ 
+    left: -190px;top: 65%;
+    width: 310px;
+  }
+  .item-1 img{
+    width: 250px;height: 220px;
+  } 
+}
+@media(max-width:900px){
+    .title b{
+      margin: 8%;
+    }
+    .item-1 img{
+        width: 200px;height: 200px;
+    } 
+  }
+@media(max-width:815px){
+    .title b{
+      margin: 10%;
+    }
+    .back{
+      height: 100vh;
+    }
+    .lg-1{ 
+        left: -180px;top: 65%;
+        width: 300px;
+    }
+    .item-1 img{
+        width: 180px;height: 170px;
+    } 
+    
+  }
+  @media(max-width:770px){
+    .headding h3,h2{
+        font-size: 20px;
+      }
+      .headding h2{
+        font-size: 35px;
+      }
+      .headding p{
+        font-size: 25px;
+      }
+      .lg-1{ 
+        left: -170px;top: 65%;
+        width: 280px;
+      }
+      .footerlogo{
+        display: none;
+      }
+
+  }
+ 
+@media(max-width:691px){
+    .logo {
+      width: 130px;
+    }
+    .lg-1{ 
+        left: -160px;top: 65%;
+        width: 270px;
+    }
+    .item-1 img{
+        width: 170px;height: 160px;
+    } 
+  }
+  @media(max-width:591px){
+    .title b{
+      margin: 15%;
+    }
+    .menu ul li a{
+        font-size: 10px;
+    }
+    .lg-1{ 
+        left: -150px;top: 65%;
+        width: 260px;
+    }
+    .headding-1 h2{
+      font-size: 30px;
+    }
+    .headding-1,.headding-2 p{
+      font-size: 8px;
+    }
+
+  }
+  @media(max-width:575px){
+    .item-1 img{
+        width: 200px;height: 200px;
+    } 
+    #foods{
+        text-align: left !important;
+    }
+    #foods h5,p,a{
+        font-size: 20px;
+    }
+  }
+
+@media(max-width:491px){
+    .logo {
+      width: 100px;
+    }
+    .menu ul{
+        display: flex;
+        justify-content: center;
+    }
+    .title b{
+        margin: 20%;
+        font-size: 12px;
+      }
+      .menu ul li a{
+        font-size: 8px;
+        padding: 0 12px;
+    }
+    .headding h3{
+        font-size: 20px;
+      }
+      .headding h2{
+        font-size: 30px;
+      }
+      .headding b{
+        font-size: 8px;
+      }
+      .headding p{
+        font-size: 20px;
+      }.back{
+        height: 100vh;
+      }
+    .lg-1{ 
+        left: -150px;top: 65%;
+        width: 225px;
+    }
+    .item-1 img{
+        width: 200px;height: 200px;
+    }
+    #foods h5,p,a{
+        font-size: 15px;
+    }
+}
+@media(max-width:400px){
+    #foods{
+        display: block !important;
+    }
+    .item-1 img{
+        width: 200px;height: 200px;
+    }
+  
+}
+@media(max-width:375px){
+    .menu ul li a{
+        padding: 0 8px;
+    }
+    .headding h3{
+        font-size: 20px;
+      }
+      .headding h2{
+        font-size: 30px;
+      }
+      .headding b{
+        font-size: 10px;
+        margin-top: 20%;
+      }
+      .headding p{
+        font-size: 18px;
+      }
+    .lg-1{ 
+        left: -140px;top: 65%;
+        width: 220px;
+    }
+    .item-1 img{
+        width: 200px;height: 180px;
+    }
+
+}
+@media(max-width:275px){
+    .headding h3{
+        font-size: 20px;
+      }
+      .headding h2{
+        font-size: 25px;
+      }
+      .headding b{
+        font-size: 7px;
+      }
+      .headding p{
+        font-size: 10px;
+      }
+       .headding a{
+        font-size: 7px;
+      }
+      .back{
+        height: 100vh;
+      }
+      .item-1 img{
+        width: 150px;height: 100px;
+    }
+    #foods h5,p,a{
+        font-size: 10px;
+    }
+}
